@@ -1,4 +1,4 @@
 create database sales;
-use todo;
+use sales;
 create table orders (order_id int,Customer_id int,order_date date,order_total float);
-insert into list(order_id,Customer_id) values(1,10329);
+insert into orders(order_id,Customer_id) values(1,10329);
